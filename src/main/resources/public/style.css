@@ -1,0 +1,49 @@
+
+    .checkLang{
+        background: #000;
+        border: 1px solid #AAAAAA;
+        padding: 10px;
+        color: #fff;
+        width: 150px;
+        margin-left: auto; 
+        margin-right: auto;
+    }
+
+    input.upload { 
+        
+    }
+    .main{
+         background: #354f5d; 
+         height: 300px; 
+         width: 300px; 
+         margin-left: auto; 
+         margin-right: auto;
+    }
+
+    #tabela{
+        background: rgb(83, 21, 21);
+        border: 1px solid #AAAAAA;
+        padding: 10px;
+        color: rgb(226, 158, 158);
+        width: 350px;
+        margin-left: auto; 
+        margin-right: auto;
+        visibility: hidden;
+        
+    }
+    #tabela1{
+        background: rgb(83, 21, 21);
+        border: 3px solid #AAAAAA;
+        padding: 20px;
+        color: rgb(226, 158, 158);
+        width: 500px;
+        margin-left: auto; 
+        margin-right: auto;
+        visibility: visible;
+    }
+    #userTab{
+        width: 450px;
+        margin-left: auto; 
+        margin-right: auto;
+        
+    }
