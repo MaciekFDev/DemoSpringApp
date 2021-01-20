@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 
 import com.example.demo.model.Person;
 
-@Repository("postgres")
+@Repository("sqldb")
 public class PersonDataAccessService implements PersonDao {
 
 	@Override
@@ -18,7 +18,7 @@ public class PersonDataAccessService implements PersonDao {
 	
 	@Override
 	public List<Person> selectAllPeople() {
-		return List.of(new Person(UUID.randomUUID(), "FROM POSTGRES DATABASE"));
+		return null;
 	}
 
 	@Override
