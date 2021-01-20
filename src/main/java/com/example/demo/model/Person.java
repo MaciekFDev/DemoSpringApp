@@ -2,11 +2,14 @@ package com.example.demo.model;
 
 import java.util.UUID;
 
+import org.hibernate.validator.constraints.NotBlank;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Person {
 
 	private final UUID id;
+	@NotBlank
 	private final String name;
 	
 	public Person(@JsonProperty("id") UUID id,
